@@ -1,0 +1,230 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="redixbit.restaurant.Booktable" >
+
+    <RelativeLayout
+        android:id="@+id/rl_head_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_head" >
+
+        <ImageView
+            android:id="@+id/img_cat_header"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/search_bg" />
+
+        <TextView
+            android:id="@+id/txt_book"
+            style="@style/MyTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Book The Table" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_head_title"
+        android:layout_marginBottom="60dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_center_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_head_title"
+            android:layout_marginBottom="60dp" >
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="NAME"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/txt_name"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/name_bg" />
+
+            <TextView
+                android:id="@+id/txt_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="MAIL ID"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/edt_mail"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/txt_mail"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/name_bg" />
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_mail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="PHONE NUMBER"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/edt_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/txt_phone"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/name_bg"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/edt_phone"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="5dp"
+                android:text="DATE"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/edt_phone"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="5dp"
+                android:text="TIME"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_date"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_time"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:id="@+id/img_dateicon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txt_time"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/date_icon" />
+
+            <ImageView
+                android:id="@+id/img_time"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txt_time"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@+id/btn_time"
+                android:background="@drawable/time_icon" />
+
+            <Button
+                android:id="@+id/btn_time"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txt_time"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/txt_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_date"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="NUMBER OF PERSON"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_number"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_person"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btn_minus"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_person"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/btn_number"
+                android:background="@drawable/minus_icon" />
+
+            <Button
+                android:id="@+id/btn_plus"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_person"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/btn_number"
+                android:background="@drawable/add_icon" />
+
+            <EditText
+                android:id="@+id/edt_comment"
+                android:layout_width="fill_parent"
+                android:layout_height="158dp"
+                android:layout_below="@+id/btn_plus"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/comments_bg"
+                android:hint="Give Comment..."
+                android:gravity="top" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rel_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/blank_white_bg" >
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ordernow_btn" />
+    </RelativeLayout>
+
+</RelativeLayout>

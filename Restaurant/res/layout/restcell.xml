@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_cell"
+        android:layout_width="fill_parent"
+        android:layout_height="95dp" >
+
+        <ImageView
+            android:id="@+id/img_restau"
+            android:layout_width="72dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/home_page_cell_img" />
+
+        <ImageView
+            android:id="@+id/img_restauborder"
+            android:layout_width="78dp"
+            android:layout_height="61dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/img_border12" />
+
+        <TextView
+            android:id="@+id/txt_rest_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_restau"
+            android:text="Restaurant Name"
+           style="@style/cellTextviewStyle"/>
+
+        <ImageView
+            android:id="@+id/img_addmap"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/txt_rest_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/img_restau"
+            android:background="@drawable/address_map_icon" />
+
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_rest_name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/img_addmap"
+            android:lines="2"
+            android:text="Udhna Sachin Highway,G.I.D.C. Naka,sachin,Udhna,Surat,Gujarat 394230"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:id="@+id/img_car"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/txt_address"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/img_restau"
+            android:background="@drawable/car_icon" />
+
+        <TextView
+            android:id="@+id/txt_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_address"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/img_car"
+            android:text="1 Km"
+            style="@style/cellTextviewStyle1"/>
+
+        <ImageView
+            android:id="@+id/img_veg"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/veg_icon" />
+
+        <ImageView
+            android:id="@+id/img_nonveg"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/nonveg_icon" />
+
+        <RatingBar
+            android:id="@+id/rate1"
+            style="@style/foodRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="35dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:scaleX="0.4"
+            android:scaleY="0.4" />
+
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/more_icon12" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+#Sat May 20 15:36:38 IST 2017
+base.0=C\:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2248c1f5cfe9075dbdcea893b5b953e767e760bc
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_201350360c37fa6443a94149e607fd6e1439cef7\\classes.dex
+base.1=C\:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_201350360c37fa6443a94149e607fd6e1439cef7
+file.0=C\:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2248c1f5cfe9075dbdcea893b5b953e767e760bc\\classes.dex

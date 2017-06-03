@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Videos\restaurant-finder\Main Package\Project for Android Studio\Restaurant\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2fbc836f971538e630b3f29e920bc72751a5b43b">
+        <dex dex="C:\Users\user\Videos\restaurant-finder\Main Package\Project for Android Studio\Restaurant\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2248c1f5cfe9075dbdcea893b5b953e767e760bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\Videos\restaurant-finder\Main Package\Project for Android Studio\Restaurant\app\libs\easyandroidanimationslibrary-v0.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81d390299222db75e62708400b299080d122b28b">
+        <dex dex="C:\Users\user\Videos\restaurant-finder\Main Package\Project for Android Studio\Restaurant\app\build\intermediates\pre-dexed\debug\easyandroidanimationslibrary-v0.5_68a773cc38f5e584ab68f71473198e59eac3be8b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Videos\restaurant-finder\Main Package\Project for Android Studio\Restaurant\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\user\Videos\restaurant-finder\Main Package\Project for Android Studio\Restaurant\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_201350360c37fa6443a94149e607fd6e1439cef7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Videos\restaurant-finder\Main Package\Project for Android Studio\Restaurant\app\libs\easyandroidanimationslibrary-v0.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81d390299222db75e62708400b299080d122b28b">
+        <dex dex="C:\Users\user\Videos\restaurant-finder\Main Package\Project for Android Studio\Restaurant\app\build\intermediates\transforms\dex\debug\folders\1000\2\easyandroidanimationslibrary-v0.5_68a773cc38f5e584ab68f71473198e59eac3be8b\classes.dex" />
+    </item>
+
+</items>

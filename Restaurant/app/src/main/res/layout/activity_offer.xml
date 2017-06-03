@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="redixbit.restaurant.Offer" >
+
+    <RelativeLayout
+        android:id="@+id/rl_head_r"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" >
+
+        <ImageView
+            android:id="@+id/img_head"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlhead"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_head_r"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/img_head1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/search_bg" />
+        <TextView 
+            android:id="@+id/txt_offer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Offers"
+            style="@style/MyTextViewStyle"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rlhead"
+        android:layout_marginTop="5dp" >
+    </ListView>
+<RelativeLayout
+        android:id="@+id/rl_infodialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+</RelativeLayout>

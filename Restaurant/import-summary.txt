@@ -1,0 +1,317 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/Volumes/Development/Workspace/Android Template/Restaurant
+                                      -                   
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* app/
+* app/build.gradle
+* app/libs/
+* app/libs/easyandroidanimationslibrary-v0.5.jar
+* app/lint.xml
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/assets/
+* app/src/main/assets/fonts/
+* app/src/main/assets/fonts/Colaborate-Thin.ttf
+* app/src/main/assets/fonts/OpenSans-Regular.ttf
+* app/src/main/assets/fonts/Redressed.ttf
+* app/src/main/assets/fonts/calibri.ttf
+* app/src/main/assets/fonts/gautami.ttf
+* app/src/main/assets/restaurant.sqlite
+* app/src/main/java/
+* app/src/main/java/redixbit/
+* app/src/main/java/redixbit/getset/
+* app/src/main/java/redixbit/getset/CustomMarker.java
+* app/src/main/java/redixbit/getset/Foodtype.java
+* app/src/main/java/redixbit/getset/Getsetfav.java
+* app/src/main/java/redixbit/getset/Restgetset.java
+* app/src/main/java/redixbit/getset/Restgetset1.java
+* app/src/main/java/redixbit/getset/Searchgetset.java
+* app/src/main/java/redixbit/getset/User.java
+* app/src/main/java/redixbit/restaurant/
+* app/src/main/java/redixbit/restaurant/About.java
+* app/src/main/java/redixbit/restaurant/Booktable.java
+* app/src/main/java/redixbit/restaurant/Category.java
+* app/src/main/java/redixbit/restaurant/Detailpage.java
+* app/src/main/java/redixbit/restaurant/Favourite.java
+* app/src/main/java/redixbit/restaurant/Gmap.java
+* app/src/main/java/redixbit/restaurant/Home.java
+* app/src/main/java/redixbit/restaurant/LatLngInterpolator.java
+* app/src/main/java/redixbit/restaurant/MainActivity.java
+* app/src/main/java/redixbit/restaurant/MarkerAnimation.java
+* app/src/main/java/redixbit/restaurant/Offer.java
+* app/src/main/java/redixbit/restaurant/Review.java
+* app/src/main/java/redixbit/restaurant/RiverFragment.java
+* app/src/main/java/redixbit/restaurant/Setting.java
+* app/src/main/java/redixbit/restaurant/Termcondition.java
+* app/src/main/java/redixbit/restaurant/Videopage.java
+* app/src/main/java/redixbit/restaurant/v2GetRouteDirection.java
+* app/src/main/java/redixbit/util/
+* app/src/main/java/redixbit/util/AlertDialogManager.java
+* app/src/main/java/redixbit/util/ConnectionDetector.java
+* app/src/main/java/redixbit/util/DBAdapter.java
+* app/src/main/java/redixbit/util/DirectionsJSONParser.java
+* app/src/main/java/redixbit/util/GPSTracker.java
+* app/src/main/res/
+* app/src/main/res/anim/
+* app/src/main/res/anim/left_out.xml
+* app/src/main/res/anim/lefttoright.xml
+* app/src/main/res/anim/listview.xml
+* app/src/main/res/anim/listview1.xml
+* app/src/main/res/anim/popup.xml
+* app/src/main/res/anim/push_left_in.xml
+* app/src/main/res/anim/push_left_out.xml
+* app/src/main/res/anim/right_in.xml
+* app/src/main/res/anim/right_slide_in.xml
+* app/src/main/res/anim/right_slide_out.xml
+* app/src/main/res/anim/righttoleft.xml
+* app/src/main/res/anim/rotate_in.xml
+* app/src/main/res/anim/rotate_out.xml
+* app/src/main/res/anim/top.xml
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/aboutbtn.png
+* app/src/main/res/drawable-hdpi/aboutus.png
+* app/src/main/res/drawable-hdpi/add.png
+* app/src/main/res/drawable-hdpi/add_icon.png
+* app/src/main/res/drawable-hdpi/address_bg.png
+* app/src/main/res/drawable-hdpi/address_map_icon.png
+* app/src/main/res/drawable-hdpi/b1.png
+* app/src/main/res/drawable-hdpi/b2.png
+* app/src/main/res/drawable-hdpi/b3.png
+* app/src/main/res/drawable-hdpi/black_star.png
+* app/src/main/res/drawable-hdpi/blank_white_bg.png
+* app/src/main/res/drawable-hdpi/book_table.png
+* app/src/main/res/drawable-hdpi/book_the_table.png
+* app/src/main/res/drawable-hdpi/bottom_bg.png
+* app/src/main/res/drawable-hdpi/btn_bg.png
+* app/src/main/res/drawable-hdpi/cancel.png
+* app/src/main/res/drawable-hdpi/car_icon.png
+* app/src/main/res/drawable-hdpi/catbtn.png
+* app/src/main/res/drawable-hdpi/categories_page_img.png
+* app/src/main/res/drawable-hdpi/category.png
+* app/src/main/res/drawable-hdpi/cell_fav12.png
+* app/src/main/res/drawable-hdpi/cellcat.png
+* app/src/main/res/drawable-hdpi/center_bg.png
+* app/src/main/res/drawable-hdpi/center_tex_bg.png
+* app/src/main/res/drawable-hdpi/clock_border.png
+* app/src/main/res/drawable-hdpi/clock_icon.png
+* app/src/main/res/drawable-hdpi/comments_bg.png
+* app/src/main/res/drawable-hdpi/contact_icon.png
+* app/src/main/res/drawable-hdpi/create_profile.png
+* app/src/main/res/drawable-hdpi/date.png
+* app/src/main/res/drawable-hdpi/date_icon.png
+* app/src/main/res/drawable-hdpi/detail_page_img.png
+* app/src/main/res/drawable-hdpi/dialobox_bg.png
+* app/src/main/res/drawable-hdpi/dialog_box.png
+* app/src/main/res/drawable-hdpi/dialog_box_star1.png
+* app/src/main/res/drawable-hdpi/dialog_box_star2.png
+* app/src/main/res/drawable-hdpi/download.jpg
+* app/src/main/res/drawable-hdpi/favbtn.png
+* app/src/main/res/drawable-hdpi/favorites_press.png
+* app/src/main/res/drawable-hdpi/favorites_unpress.png
+* app/src/main/res/drawable-hdpi/favourites.png
+* app/src/main/res/drawable-hdpi/filterbtn.png
+* app/src/main/res/drawable-hdpi/filters.png
+* app/src/main/res/drawable-hdpi/first_cell.png
+* app/src/main/res/drawable-hdpi/first_food_bg.png
+* app/src/main/res/drawable-hdpi/home.png
+* app/src/main/res/drawable-hdpi/home_page_cell_img.png
+* app/src/main/res/drawable-hdpi/homebtn.png
+* app/src/main/res/drawable-hdpi/hqdefault.jpg
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/img_border12.png
+* app/src/main/res/drawable-hdpi/location_icon.png
+* app/src/main/res/drawable-hdpi/map.png
+* app/src/main/res/drawable-hdpi/map1.png
+* app/src/main/res/drawable-hdpi/minus_icon.png
+* app/src/main/res/drawable-hdpi/more_icon.png
+* app/src/main/res/drawable-hdpi/more_icon12.png
+* app/src/main/res/drawable-hdpi/name_bg.png
+* app/src/main/res/drawable-hdpi/non_veg.png
+* app/src/main/res/drawable-hdpi/nonveg_icon.png
+* app/src/main/res/drawable-hdpi/offer_page_img.png
+* app/src/main/res/drawable-hdpi/offer_title_bg.png
+* app/src/main/res/drawable-hdpi/offter_title.png
+* app/src/main/res/drawable-hdpi/ok_btn.png
+* app/src/main/res/drawable-hdpi/ordernow_btn.png
+* app/src/main/res/drawable-hdpi/profile.png
+* app/src/main/res/drawable-hdpi/profilebtn.png
+* app/src/main/res/drawable-hdpi/promotions.png
+* app/src/main/res/drawable-hdpi/rate_1.png
+* app/src/main/res/drawable-hdpi/rate_2.png
+* app/src/main/res/drawable-hdpi/red_star.png
+* app/src/main/res/drawable-hdpi/review.png
+* app/src/main/res/drawable-hdpi/review_default_user.png
+* app/src/main/res/drawable-hdpi/review_title.png
+* app/src/main/res/drawable-hdpi/reviewbg.png
+* app/src/main/res/drawable-hdpi/reviewcell.png
+* app/src/main/res/drawable-hdpi/search.png
+* app/src/main/res/drawable-hdpi/search_bg.png
+* app/src/main/res/drawable-hdpi/second_cell.png
+* app/src/main/res/drawable-hdpi/second_food_bg.png
+* app/src/main/res/drawable-hdpi/share.png
+* app/src/main/res/drawable-hdpi/sidebar_bg.png
+* app/src/main/res/drawable-hdpi/social.png
+* app/src/main/res/drawable-hdpi/socialbtn.png
+* app/src/main/res/drawable-hdpi/special_offer.png
+* app/src/main/res/drawable-hdpi/specialbtn.png
+* app/src/main/res/drawable-hdpi/star_1.png
+* app/src/main/res/drawable-hdpi/star_2.png
+* app/src/main/res/drawable-hdpi/submit.png
+* app/src/main/res/drawable-hdpi/teliphone_icon.png
+* app/src/main/res/drawable-hdpi/termbtn.png
+* app/src/main/res/drawable-hdpi/terms.png
+* app/src/main/res/drawable-hdpi/time.png
+* app/src/main/res/drawable-hdpi/time_icon.png
+* app/src/main/res/drawable-hdpi/timing_bg.png
+* app/src/main/res/drawable-hdpi/title.png
+* app/src/main/res/drawable-hdpi/title_bg.png
+* app/src/main/res/drawable-hdpi/title_bottom_border.png
+* app/src/main/res/drawable-hdpi/update_button.png
+* app/src/main/res/drawable-hdpi/update_profile.png
+* app/src/main/res/drawable-hdpi/veg.png
+* app/src/main/res/drawable-hdpi/veg_icon.png
+* app/src/main/res/drawable-hdpi/video.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* app/src/main/res/drawable/
+* app/src/main/res/drawable/food_rating_bar_full.xml
+* app/src/main/res/drawable/food_ratingbar_full_empty.xml
+* app/src/main/res/drawable/food_ratingbar_full_filled.xml
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_about.xml
+* app/src/main/res/layout/activity_booktable.xml
+* app/src/main/res/layout/activity_category.xml
+* app/src/main/res/layout/activity_detailpage.xml
+* app/src/main/res/layout/activity_favourite.xml
+* app/src/main/res/layout/activity_gmap.xml
+* app/src/main/res/layout/activity_home.xml
+* app/src/main/res/layout/activity_main.xml
+* app/src/main/res/layout/activity_offer.xml
+* app/src/main/res/layout/activity_review.xml
+* app/src/main/res/layout/activity_setting.xml
+* app/src/main/res/layout/activity_termcondition.xml
+* app/src/main/res/layout/activity_videopage.xml
+* app/src/main/res/layout/cellcat.xml
+* app/src/main/res/layout/cellfav.xml
+* app/src/main/res/layout/cellfav1.xml
+* app/src/main/res/layout/cellfav2.xml
+* app/src/main/res/layout/connectiondialog.xml
+* app/src/main/res/layout/custom.xml
+* app/src/main/res/layout/dialog_create.xml
+* app/src/main/res/layout/drawer_list_item.xml
+* app/src/main/res/layout/fragment_layout.xml
+* app/src/main/res/layout/giverate.xml
+* app/src/main/res/layout/json_dilaog.xml
+* app/src/main/res/layout/offercell.xml
+* app/src/main/res/layout/restcell.xml
+* app/src/main/res/layout/reviewcell.xml
+* app/src/main/res/layout/reviewcell1.xml
+* app/src/main/res/layout/reviewcell2.xml
+* app/src/main/res/layout/reviewclick_dialog.xml
+* app/src/main/res/layout/update_dialog.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/about.xml
+* app/src/main/res/menu/booktable.xml
+* app/src/main/res/menu/category.xml
+* app/src/main/res/menu/detailpage.xml
+* app/src/main/res/menu/favourite.xml
+* app/src/main/res/menu/gmap.xml
+* app/src/main/res/menu/home.xml
+* app/src/main/res/menu/offer.xml
+* app/src/main/res/menu/popbook.xml
+* app/src/main/res/menu/review.xml
+* app/src/main/res/menu/setting.xml
+* app/src/main/res/menu/termcondition.xml
+* app/src/main/res/menu/videopage.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values-w820dp/
+* app/src/main/res/values-w820dp/dimens.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/res/xml/
+* app/src/main/res/xml/setting.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:22.2.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/easyandroidanimationslibrary-v0.5.jar => app/libs/easyandroidanimationslibrary-v0.5.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

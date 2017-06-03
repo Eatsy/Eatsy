@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="F:/workspace_eclipse1/Mortal/libs/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/workspace_eclipse1/google-play-services_lib/libs/google-play-services.jar"/>
+	<classpathentry kind="lib" path="F:/workspace_eclipse1/EasyAndroidAnimationsDemo/libs/easyandroidanimationslibrary-v0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin1/AppData/Local/Android/sdk/add-ons/addon-google_apis-google-22/libs/maps.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/admin1/AppData/Local/Android/sdk/add-ons/addon-google_apis-google-22/docs/reference"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/admin1/AppData/Local/Android/sdk/platforms/android-22/android.jar" sourcepath="C:/Users/admin1/AppData/Local/Android/sdk/sources/android-22">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/admin1/AppData/Local/Android/sdk/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\videopage.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\videopage.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\about.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\about.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\detailpage.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\detailpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gmap.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\gmap.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\review.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\review.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\favourite.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\favourite.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\offer.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\offer.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\setting.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\termcondition.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\termcondition.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\booktable.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\booktable.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\category.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\category.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\build\\intermediates\\res\\merged\\debug\\menu\\popbook.xml",
+        "source": "C:\\Users\\user\\Videos\\restaurant-finder\\Main Package\\Project for Android Studio\\Restaurant\\app\\src\\main\\res\\menu\\popbook.xml"
+    }
+]

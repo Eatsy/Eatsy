@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Restaurant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detailpage">Detailpage</string>
+
+    <string-array name="rivers">
+        <item>Home</item>
+        <item>Categories</item>
+        <item>Filters</item>
+        <item>Favourites</item>
+        <item>Promotions</item>
+        <item>About us</item>
+        <item>Social Sharing</item>
+        <item>Terms and Conditions</item>
+        <item>Profile</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_gmap">Gmap</string>
+    <string name="title_activity_review">Review</string>
+    <string name="title_activity_offer">Offer</string>
+    <string name="title_activity_videopage">Videopage</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_favourite">Favourite</string>
+    <string name="title_activity_booktable">Booktable</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="pref_about_application">ABOUT APPLICATION</string>
+    <string name="pref_version_summary">1.0</string>
+    <string name="pref_version">Version</string>
+    <string name="pref_about_developer">ABOUT DEVELOPER</string>
+    <string name="app_recipient">admin@redixbit.com</string>
+    <string name="pref_contact_app">Contact Us</string>
+    <string name="pref_contact_app_summary">For more information contact us.</string>
+    <string name="app_subject">Restaurant</string>
+    <string name="email_no_client">No email client installed.</string>
+    <string name="email_choose_from_client">Choose an email client from...</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_termcondition">Termcondition</string>
+    <string name="opensans">OpenSans-Regular.ttf</string>
+
+
+    <string name="Home_banner">no</string>
+    <string name="category_banner">no</string>
+    <string name="favourite_banner">no</string>
+    <string name="review_banner">no</string>
+    <string name="about_banner">no</string>
+    <string name="term_banner">no</string>
+    <string name="Home_show_ads">no</string>
+    <string name="Detail_show_ads">no</string>
+    <string name="Category_show_ads">no</string>
+    <string name="Favourite_show_ads">no</string>
+
+
+    <string name="insertial_ad_key">ca-app-pub-3730886167471578/7823396048</string>
+    <string name="banner_ad_key">ca-app-pub-3730886167471578/6129996844</string>
+
+	<string name="liveurl">http://127.0.0.1/</string>
+
+</resources>
